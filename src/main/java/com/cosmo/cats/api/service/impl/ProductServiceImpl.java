@@ -1,6 +1,6 @@
 package com.cosmo.cats.api.service.impl;
 
-import com.cosmo.cats.api.data.ProductRepository;
+import com.cosmo.cats.api.repository.ProductRepository;
 import com.cosmo.cats.api.domain.Category;
 import com.cosmo.cats.api.domain.Product;
 import com.cosmo.cats.api.service.ProductService;
@@ -43,7 +43,7 @@ public class ProductServiceImpl implements ProductService {
             throw new DuplicateProductNameException(updatedProduct.getName());
         }
         Product productWithUpdates = buildProduct(updatedProduct, categoryId, id);
-        productRepository.update(id, updatedProduct);
+        productRepository.update(id, productWithUpdates);
         return productWithUpdates;
     }
 

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.when;
 
-import com.cosmo.cats.api.data.ProductRepository;
+import com.cosmo.cats.api.repository.ProductRepository;
 import com.cosmo.cats.api.domain.Category;
 import com.cosmo.cats.api.domain.Product;
 import com.cosmo.cats.api.service.ProductService;

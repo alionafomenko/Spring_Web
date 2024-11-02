@@ -12,7 +12,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.cosmo.cats.api.data.ProductRepository;
+import com.cosmo.cats.api.repository.ProductRepository;
 import com.cosmo.cats.api.dto.ProductCreationDto;
 import com.cosmo.cats.api.dto.ProductUpdateDto;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package com.cosmo.cats.api.data;
+package com.cosmo.cats.api.repository;
 
 import com.cosmo.cats.api.domain.Category;
 import com.cosmo.cats.api.domain.Product;
